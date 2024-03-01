@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("5192479.jpg");
+    -webkit-backdrop-filter: blur(60px);
+    background-size: cover;
+    backdrop-filter: blur(50px);
+    height: 100vh;
+    color: white;
+}
+
+nav {
+    background-color: transparent;
+    padding: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    font-size: 18px;
+    display: inline;
+    margin-right: 30px;
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+section {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+input[type="submit"] {
+    background-color: #9c9562;
+    color: white;
+    padding: 20px 40px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #e3de84;
+}
+.welcome{
+    text-align: center;
+    align-items: center;
+    margin-bottom: 6%;
+    font-size: 40px;
+}
+.photo{
+    margin: 0 5%;
+    max-height: 400px;
+    max-width: 400px;
+    border-radius: 100px;
+    object-fit: contain;
+    box-shadow: 0.5px 5px 5px rgb(18, 28, 45);
+}
