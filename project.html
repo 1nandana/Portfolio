@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("5192479.jpg");
+    -webkit-backdrop-filter: blur(60px);
+    background-size: cover;
+    backdrop-filter: blur(50px);
+    height: 100vh;
+    color: white;
+}
+
+nav {
+    background-color: transparent;
+    padding: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    font-size: 18px;
+    display: inline;
+    margin-right: 30px;
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+        section {
+            padding: 20px;
+        }
+        .project {
+            display: flex;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .project img {
+            width: 150px;
+            height: 100px;
+            object-fit: cover;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+        .project h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .project p {
+            font-size: 16px;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="project.html">Project</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="projects">
+        <h1 style="text-align: center; font-size: 35px;">My Projects</h1>
+        <br>
+        <div class="project">
+            <img src="project1.jpg.png" alt="Project 1">
+            <div>
+                <h2>Music recommendation website based on human emotion</h2>
+                <p> Model: Emotion detection model trained using CNN(deep learning algorithm)</p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="project2.jpg.png" alt="Project 2">
+            <div>
+                <h2>Integrating chatGPT app</h2>
+                <p>
+                    FRONTEND
+                    Stack used- REACT NATIVE EXPO
+                    BACKEND
+                    Stack used -EXPRESS,NODE JS</p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="project3.jpg.png" alt="Project 3">
+            <div>
+                <h2>A block chain based application system for product
+                    anticounterfeiting
+                    </h2>
+                
+            </div>
+        </div>
+    </section>
+</body>
+</html>
